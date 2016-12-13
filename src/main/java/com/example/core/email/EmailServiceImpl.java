@@ -67,7 +67,7 @@ public class EmailServiceImpl implements EmailService {
         try {
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
             helper.setFrom(emailConfig.getEmailFrom());
-            helper.setTo("286352250@163.com");
+            helper.setTo("18501258061@163.com");
             helper.setSubject("主题：嵌入静态资源");
             helper.setText("<html><body><img src=\"cid:weixin\" ></body></html>", true);
 
