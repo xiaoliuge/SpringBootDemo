@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
-
+import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 /*public class DemoApplication {
 
@@ -13,6 +13,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 		SpringApplication.run(DemoApplication.class, args);
 	}
 }*/
+@EnableAsync
 public class DemoApplication extends SpringBootServletInitializer {
 
 	// jar启动
