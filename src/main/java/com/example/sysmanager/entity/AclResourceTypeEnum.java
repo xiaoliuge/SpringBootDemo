@@ -1,4 +1,4 @@
-package com.training.sysmanager.entity;
+package com.example.sysmanager.entity;
 
 /**
  * Created by Athos on 2016-07-16.
